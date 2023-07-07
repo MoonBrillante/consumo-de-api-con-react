@@ -1,5 +1,5 @@
-## Consumo de API con React
-# Install Vite, React and MUI
+# Consumo de API con React
+## Install Vite, React and MUI
 ```
 npm create vite@latest
 npm install
