@@ -1,5 +1,5 @@
 # Consumo de API con React
-## Instalacion Vite, React y MUI
+## Instalación Vite, React y MUI
 ```
 npm create vite@latest
 npm install
@@ -10,14 +10,14 @@ npm i axios
 ```
 ## What is MUI?
 Material UI is an open-source React component library that implements Google's Material Design.
-## MUI Install
+## MUI Instalación
 ```
 npm install @mui/material @emotion/react @emotion/styled
 ```
 ```
 npm i @mui/icons-material
 ```
-## Install MUI Navbar Component
+## Instalación MUI Navbar Component
 
 ```
 import * as React from 'react';
