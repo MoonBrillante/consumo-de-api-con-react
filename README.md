@@ -14,6 +14,7 @@ Material UI is an open-source React component library that implements Google's M
 ```
 npm install @mui/material @emotion/react @emotion/styled
 ```
+```
 npm i @mui/icons-material
 ```
 ## Install MUI Navbar
