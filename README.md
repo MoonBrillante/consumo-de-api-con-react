@@ -90,7 +90,6 @@ export default function PokemonCard({ name, image, types }) {
     };
 
 return (
-        
         <Card sx={{ maxWidth: 345, "& :hover":{
             background: 'linear-gradient(45deg,#AE64F3 20%, #0C00FF 90%)'}
             }} >
@@ -114,33 +113,56 @@ return (
 ```
 ## Pages Component
 ```
-export default function PokemonCard({ name, image, types }) {
-    const typeHandler = () => {
-        if (types[1]) {
-            return types[0].type.name + " | " + types[1].type.name;
+import { Grid } from "@mui/material";
+import { Box, Container } from "@mui/system";
+import axios from "axios";
+import React, { useEffect, useState } from "react";
+import Navbar from "../components/Navbar";
+import PokemonCard from "../components/PokemonCard";
+
+const Home = () => {
+    const [pokemons, setPokemons] = useState([]);
+
+    useEffect(() => {
+        getPokemons();
+    }, []);
+
+    const getPokemons = () => {
+        var endpoints = [];
+        for (var i = 1; i < 200; i++) {
+            endpoints.push(`https://pokeapi.co/api/v2/pokemon/${i}/`);
         }
-        return types[0].type.name;
+        axios.all(endpoints.map((endpoint) => axios.get(endpoint))).then((res) => setPokemons(res));
     };
 
-return (
-        <Card sx={{ maxWidth: 345, "& :hover":{
-            background: 'linear-gradient(45deg,#AE64F3 20%, #0C00FF 90%)'}
-            }} >
-            <CardActionArea>
-                <CardMedia component="img" height="200"  image={image} alt="green iguana" />
-                <CardContent>
-                    <Box display="flex" justifyContent="space-between" alignItems="center">
-                    <Typography gutterBottom variant="h5" component="div">
-                        {name}
-                    </Typography>
-                    <br />
-                    <Typography gutterBottom variant="caption" component="div">
-                        {typeHandler()}
-                    </Typography>
-                    </Box>
-                </CardContent>
-            </CardActionArea>
-        </Card>
+    const pokemonFilter = (name) => {
+        var filteredPokemons = [];
+        if(name===""){
+            getPokemons();
+        }
+        for (var i in pokemons) {
+            if (pokemons[i].data.name.includes(name)) {
+                filteredPokemons.push(pokemons[i]);
+        }
+        }
+        setPokemons(filteredPokemons);
+    };
+
+    return (
+        <div>
+            <Navbar pokemonFilter={pokemonFilter} />
+                <Container maxWidth="xg" sx={{}}>
+                    <Grid container spacing={3}>
+                        {pokemons.map((pokemon, key) => (
+                        <Grid item xs={12} sm={6} md={4} lg={2} key={key}>
+                            <PokemonCard name={pokemon.data.name} image={pokemon.data.sprites.front_default} types={pokemon.data.types} />
+                        </Grid>
+                    ))
+                    }
+                    </Grid>
+            </Container>
+        </div>
     );
-}       
+};
+
 ```
