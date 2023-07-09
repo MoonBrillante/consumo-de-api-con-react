@@ -22,7 +22,19 @@ npm install @mui/material @emotion/react @emotion/styled
 ```
 npm i @mui/icons-material
 ```
-## MUI Navbar Component
+## Crear Navbar Component
+```
+Crear una nueva carpeta de componentes en src, a continuación, crear una carpeta Navbar, crear un archivo,
+el nombre index.jsx.  Navbar tiene functión de búsqueda.
+### src->component=>Navbar=>index.jsx
+```
 ## Card Component
-## Pages Component
+```
+Para crear una tarjeta, sólo tienes que elegir el componente de tarjeta de la biblioteca Material UI y personalizarlo según tus especificaciones. 
+```
+## Pages 
+```
+Combinamos la barra de navegación y la Tarjeta para que sea responsive, para adaptarse a diferentes tamaños de pantalla.
+
+```
 
