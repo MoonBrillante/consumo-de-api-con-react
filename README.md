@@ -1,5 +1,5 @@
 # Consumo de API con React
-### Usar PoKéAPI (https://pokeapi.co/)
+## Usar PoKéAPI (https://pokeapi.co/)
 ## Instalación Vite, React y MUI
 ```
 npm create vite@latest
