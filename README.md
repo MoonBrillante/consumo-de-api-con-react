@@ -5,8 +5,10 @@ npm create vite@latest
 npm install
 npm run dev
 ```
+## ¿Qué es Axios?
+Axios es un Cliente HTTP basado en promesas para node.js y el navegador. Es isomorfico (= puede ejecutarse en el navegador y nodejs con el mismo código base). En el lado del servidor usa el modulo nativo http de node.js, mientras que en el lado del cliente (navegador) usa XMLHttpRequests.
 ```
-npm i axios
+npm install axios
 ```
 ## What is MUI?
 ```
