@@ -36,6 +36,5 @@ Para crear una tarjeta, sólo tienes que elegir el componente de tarjeta de la b
 ## Pages 
 ```
 Combinamos la barra de navegación y la Tarjeta para que sea responsive, para adaptarse a diferentes tamaños de pantalla.
-
 ```
 
