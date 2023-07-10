@@ -14,7 +14,7 @@ npm install axios
 ## Instalación MUI
 Material UI is an open-source React component library that implements Google's Material Design.
 ```
-npm install @mui/material@emotion/react @emotion/styled
+npm install @mui/material@emotion/react@emotion/styled
 npm i @mui/icons-material
 ```
 
