@@ -31,7 +31,7 @@ Paso 3 - Cambiar navbar nombre lo que quiere.
 ## Card Component
 
 Para crear una tarjeta, sólo tienes que elegir el componente de tarjeta de la biblioteca Material UI y personalizarlo según tus especificaciones. 
-```
+
 ## Dialog Box
 ### ¿Cómo se usan los diálogos en React?
 Haga clic en la tarjeta para que pop-up el mensaje
