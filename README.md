@@ -35,10 +35,6 @@ el nombre index.jsx.  Navbar tiene functión de búsqueda.
 ```
 Para crear una tarjeta, sólo tienes que elegir el componente de tarjeta de la biblioteca Material UI y personalizarlo según tus especificaciones. 
 ```
-## Pages 
-```
-Combinamos la barra de navegación y la Tarjeta para que sea responsive, para adaptarse a diferentes tamaños de pantalla.
-```
 ## Dialog Box
 ### ¿Cómo se usan los diálogos en React?
 Haga clic en la tarjeta para que pop-up el mensaje
@@ -46,4 +42,8 @@ Haga clic en la tarjeta para que pop-up el mensaje
 Paso 1 - Importar los componentes Dialog y DialogTitle de la librería Material-Ui.
 Paso 2 - Usar el componente Dialog en nuestra app para añadir diálogo....
 Paso 3 - El estado openDialog se añade para controlar la apertura y cierre del diálogo.
+```
+## Pages 
+```
+Combinamos la barra de navegación y la Tarjeta para que sea responsive, para adaptarse a diferentes tamaños de pantalla.
 ```
