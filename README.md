@@ -2,8 +2,7 @@
 Responsive página web, pase el ratón tarjetas mostrar efecto de animación, haga clic en la tarjeta para que pop-up el mensaje
 y nav tiene función de búsqueda. 
 ## Usar(React + MUI + PoKéAPI)
-## (https://es.react.dev/, https://mui.com/)
-## Usar PoKéAPI (https://pokeapi.co/)
+## https://es.react.dev/, https://mui.com/, https://pokeapi.co/
 ## Instalación Vite, React y MUI
 ```
 npm create vite@latest
