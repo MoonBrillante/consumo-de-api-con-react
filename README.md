@@ -33,7 +33,7 @@ npm i @mui/icons-material
 Crear una nueva carpeta de componentes en src, a continuación, crear una carpeta Navbar, crear un archivo,
 el nombre index.jsx.  Navbar tiene functión de búsqueda.
 ```
-### src->component=>Navbar=>index.jsx
+### src->component->Navbar->index.jsx
 ## Card Component
 ```
 Para crear una tarjeta, sólo tienes que elegir el componente de tarjeta de la biblioteca Material UI y personalizarlo según tus especificaciones. 
