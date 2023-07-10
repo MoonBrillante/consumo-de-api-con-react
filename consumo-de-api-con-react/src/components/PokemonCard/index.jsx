@@ -3,8 +3,8 @@ import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
-import { Box, Button, CardActionArea, CardActions, DialogContent } from '@mui/material';
-import { Gradient } from '@mui/icons-material';
+import { Button, CardActionArea,  DialogContent } from '@mui/material';
+import {Box} from "@mui/system";
 import { Dialog, DialogTitle, DialogActions } from '@mui/material';
 
 
