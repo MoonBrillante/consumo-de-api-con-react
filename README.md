@@ -48,4 +48,3 @@ Paso 3 - El estado openDialog se añade para controlar la apertura y cierre del 
 Combinamos la barra de navegación y la Tarjeta para que sea responsive, para adaptarse a diferentes tamaños de pantalla.
 ```
 
-http://www.react.com
