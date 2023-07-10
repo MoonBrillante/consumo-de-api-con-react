@@ -1,5 +1,5 @@
 # Consumo de API con React
-Responsive página web, pase el ratón tarjetas mostrar efecto de animación, haga clic en la tarjeta para que pop-up el mensaje
+Responsive página web, el ratón mueve las tarjetas mostrar efecto de animación, haga clic en la tarjeta para que pop-up el mensaje
 y nav tiene función de búsqueda. 
 ## Usar(React + MUI + PoKéAPI)
 ## https://es.react.dev/ 
