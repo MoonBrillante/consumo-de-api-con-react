@@ -8,7 +8,7 @@ npm create vite@latest
 npm install
 npm run dev
 ```
-````
+```
 npm install axios
 ```
 ## Instalación MUI
