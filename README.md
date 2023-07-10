@@ -2,9 +2,6 @@
 Responsive página web, el ratón mueve las tarjetas mostrar efecto de animación, haga clic en la tarjeta para que pop-up el mensaje
 y nav tiene función de búsqueda. 
 ## Usar(React + MUI + PoKéAPI)
-## https://es.react.dev/ 
-## https://mui.com/
-## https://pokeapi.co/
 ## Instalación Vite, React y MUI
 ```
 npm create vite@latest
@@ -13,10 +10,6 @@ npm run dev
 ```
 ## ¿Qué es Axios?
 Axios es un Cliente HTTP basado en promesas para node.js y el navegador. Es isomorfico (= puede ejecutarse en el navegador y nodejs con el mismo código base). En el lado del servidor usa el modulo nativo http de node.js, mientras que en el lado del cliente (navegador) usa XMLHttpRequests.
-### https://axios-http.com/es/docs/intro
-```
-npm install axios
-```
 ## What is MUI?
 ```
 Material UI is an open-source React component library that implements Google's Material Design.
