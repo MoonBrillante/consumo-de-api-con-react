@@ -1,9 +1,8 @@
 # Consumo de API con React
 Responsive página web, pase el ratón tarjetas mostrar efecto de animación, haga clic en la tarjeta para que pop-up el mensaje
 y nav tiene función de búsqueda. 
-## React + MUI + PoKéAPI
-## https://es.react.dev/ 
-## https://mui.com/
+## Usar(React + MUI + PoKéAPI)
+## (https://es.react.dev/, https://mui.com/)
 ## Usar PoKéAPI (https://pokeapi.co/)
 ## Instalación Vite, React y MUI
 ```
